@@ -10,4 +10,4 @@ __pycache__/
 datasets/
 dataset/
 build/
-dist/
+dist/backend/.env 
