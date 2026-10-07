@@ -1,13 +1,27 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node
 node_modules/
+
+# Python
 venv/
 .venv/
 __pycache__/
 *.pyc
 *.pyo
+
+# ML models
 *.h5
 *.pt
 *.pth
+
+# Datasets
 datasets/
 dataset/
+
+# Build files
 build/
-dist/backend/.env 
+dist/
